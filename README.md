@@ -5,16 +5,9 @@
 Check plugin update automatically when enabling it.
 
 ## Usage
-1. Create a TXT file in your Github repository, and write down your plugin's latest version in it.<br>
-2. Change the following URLs in the code.<br>
+1. Create a TXT file in your Github repository, and write down your plugin's latest version number in it.<br>
+2. Use the method in `onEnable()` or anywhere you want, and remember to change `%Github-user-name%` into your username and `%Github-repo%` into your repo name:<br>
 ```java
-URL url = new URL("https://raw.githubusercontent.com/username/repo-name/master/latest.txt");
+PluginUpdater.check(this, "%Github-user-name%", "%Github-repo%");
 ```
-```java
-URL url = new URL("https://cdn.jsdelivr.net/gh/username/repo-name/latest.txt");
-```
-3. Include this code in `onEnable()` or anywhere you want:<br>
-```java
-Updater.check();
-```
-4. Change the version number in the TXT file when you update your plugin version. Remember to update the version of your plugin every time you publish it.<br>
+3. Change the version number in the TXT file when you update your plugin version. Remember to update the version of your plugin every time you publish it.<br>
