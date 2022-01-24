@@ -1,5 +1,5 @@
 # Spigot-CheckUpdate
-[![License](https://img.shields.io/badge/license-GPLv3-blue?style=for-the-badge)](https://www.gnu.org/licenses/gpl-3.0.html) ![Pull Requests](https://img.shields.io/github/issues-pr-closed/katorlys/Spigot-CheckUpdate?style=for-the-badge) ![Issues](https://img.shields.io/github/issues-closed/katorlys/Spigot-CheckUpdate?style=for-the-badge)
+[![License](https://img.shields.io/badge/license-GPLv3-blue?style=flat-square)](https://www.gnu.org/licenses/gpl-3.0.html) [![Pull Requests](https://img.shields.io/github/issues-pr-closed/katorlys/CleanJunkFiles?style=flat-square)](https://github.com/katorlys/CleanJunkFiles/pulls) [![Issues](https://img.shields.io/github/issues-closed/katorlys/CleanJunkFiles?style=flat-square)](https://github.com/katorlys/CleanJunkFiles/issues) [![Lines](https://img.shields.io/tokei/lines/github/katorlys/CleanJunkFiles?style=flat-square)](https://github.com/katorlys/CleanJunkFiles)
 
 ## Introduction
 Check plugin update automatically when enabling it.
