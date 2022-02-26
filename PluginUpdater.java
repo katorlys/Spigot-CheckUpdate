@@ -1,3 +1,12 @@
+/**
+ * Spigot-CheckUpdate
+ * 
+ * Copyright Katorly Lab
+ * (github.com/katorlys)
+ * 
+ * License under GPLv3
+ */
+
 import org.bukkit.Bukkit;
 import org.bukkit.plugin.java.JavaPlugin;
 
